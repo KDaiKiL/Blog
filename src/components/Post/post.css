@@ -1,0 +1,111 @@
+article {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(19, 19, 24, 0.05);
+    border-radius: 5px;
+    padding: 16px 14px 15px 17px;
+    margin: 15px 0;
+}
+
+article span {
+    font-size: 12.5px;
+    color: #757575;
+    cursor: pointer;
+    margin-top: 10px
+}
+
+.date span {
+    cursor: inherit;
+    margin-top: 0
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.date img {
+    width: 19.25px;
+    height: 16.93px;
+    margin: 0.75px 4.37px 0.32px 0px;
+}
+
+article h3 {
+    margin: 0 4px 2px 1px;
+    font-size: 15px;
+    color: #1A202C;
+    font-weight: 600;
+}
+
+article p {
+    font-size: 13.5px;
+    color: #515151;
+}
+
+.view {
+    display: flex;
+    justify-content: space-between;
+}
+
+article a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+article a span {
+    margin-right: 20px;
+}
+
+@media (min-width: 900px) {
+    .desc {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1604px) and (max-width: 1899px) {
+    article h3 {
+        font-size: 23px;
+    }
+    
+    article p {
+        font-size: 20.5px;
+    }
+    article span {
+        font-size: 19px;
+    }
+    article {
+        padding: 19px 17px 18px 20px;
+    }
+}
+
+@media (min-width: 1900px) and (max-width: 2699px){
+    article h3 {
+        font-size: 25px;
+    }
+    
+    article p {
+        font-size: 22.5px;
+    }
+    article span {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1900px) {
+    article {
+        padding: 21px 19px 20px 22px;
+    }
+}
+
+@media (min-width: 2700px) {
+    article h3 {
+        font-size: 33px;
+    }
+    
+    article p {
+        font-size: 30.5px;
+    }
+    article span {
+        font-size: 28px;
+    }
+}

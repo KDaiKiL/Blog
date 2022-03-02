@@ -1,0 +1,45 @@
+main, .containerM {
+    display: flex;
+}
+
+main {
+    background: #dddddd;
+    width: 100%;
+    justify-content: center;
+    padding: 25px 0 40px 0;
+}
+
+.containerM {
+    width: 87%;
+    flex-direction: column;
+}
+
+@media (max-width: 899px) {
+    .desc {
+        display: none
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1365px) {
+    .containerM {
+        width: 69%;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1439px) {
+    .containerM {
+        width: 63%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1899px) {
+    .containerM {
+        width: 62.5%;
+    }
+}
+
+@media (min-width: 1900px) {
+    .containerM {
+        width: 60%;
+    }
+}

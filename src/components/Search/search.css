@@ -1,0 +1,30 @@
+form, #searchImg {
+    display: flex;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px 0px 0px 5px;
+    color: #fff;
+    padding-left: 12px;
+}
+
+input::placeholder {
+    color: rgb(221, 221, 221);
+}
+
+#searchImg {
+    width: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px 5px 5px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchImg:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
